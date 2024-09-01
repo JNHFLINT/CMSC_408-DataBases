@@ -21,7 +21,7 @@ format:
 
 ---
 
-(Add an intro paragraph here.  What is the purpose of this report?)
+The purpose of this report is to first give us an overview of how databases work. We first learn about the Open Source Data Engineering Tools which are used to create massive databases which store lots of data. We then learn about the different types of technical tools which are used to make it easier to create these databases. Lastly, we reflect on what we have learned and how we liked this report.
 
 # Open Source Data Engineering Tools
 
