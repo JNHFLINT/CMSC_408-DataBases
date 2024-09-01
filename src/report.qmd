@@ -149,10 +149,10 @@ These relational OLTP DBMS tools are foundational in many organizations, ensurin
 
 Convert these questions into brief paragraph responses (two or three sentence).
 
-* what did you like about this project?
+* I really liked how it was formatted. Once I got everything setup, I was able to get through the homework efficiently.
 
-* what did you find hardest about this project?
+* The hardest part I had with this project was my PATH environment variable for Visual Studio Code. In the end, I had to reinstall and manually add the PATH environment variable in my advanced system settings.
 
-* what did you find most surprising about this assignment?
+* What I found most surprising about this assignment was how many types of tools we can use to make databases and visualizations. I really enjoyed using Github, Visual Studio Code, and Quarto to help this homework come together.
 
-* how would you approach this project differently next time?
+* I would give myself more time next time. I did end up learning everything, but it would help me if I started earlier so I can fully learn how these tools work.
