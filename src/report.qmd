@@ -138,11 +138,35 @@ This section is provided as an example.  You MAY NOT submit *relational OLTP DBM
 
 These relational OLTP DBMS tools are foundational in many organizations, ensuring that transactional data is handled efficiently and reliably, forming the backbone of countless business operations worldwide.
 
-## (Your interest category 1)
+## Data Infrastructure and Monitoring
 
-## (Your interest category 2)
+**What is Data Infrastructure and Monitoring?:** Data infrastructure and monitoring refer to the systems, tools, and processes that manage, observe, and maintain the overall data ecosystem within an organization. This includes the architecture and technologies that support data collection, storage, transfer, integration, and quality assurance. Monitoring tools specifically focus on tracking the performance, reliability, and integrity of these data systems in real-time, providing alerts and insights to ensure smooth operation.
 
-## (Your interest category 3)
+**Importance:** This category is crucial because it forms the backbone of any data-driven organization. Efficient data infrastructure ensures that data is available, reliable, and accessible when needed. Monitoring tools help in proactively identifying and resolving issues, thereby minimizing downtime, data loss, or corruption. Without robust infrastructure and monitoring, the integrity and availability of data could be compromised, leading to faulty decision-making and operational inefficiencies.
+
+**Differences from Relational OLTP Databases:** Relational OLTP (Online Transaction Processing) databases focus on managing day-to-day transactional data with a high degree of normalization, integrity, and support for ACID properties (Atomicity, Consistency, Isolation, Durability). Data infrastructure, on the other hand, encompasses a broader scope, including data lakes, ETL (Extract, Transform, Load) pipelines, and data warehouses, which may include both structured and unstructured data, and typically handle large volumes of data for analytical purposes rather than just transactional.
+
+**Why I find it interesting:** I find Data infrastructure and monitoring interesting because of how important they are for scalability and reliability of data systems. I'm particularly interested in cloud technologies, containerization, and automation to streamline data operations.
+
+## Data Processing and Computation
+
+**What is Data Processing and Computation?:** Data processing and computation involve the transformation, analysis, and computation of data to derive actionable insights or to prepare data for further use. This category includes tools and frameworks for batch processing, stream processing, big data analytics, machine learning workflows, and distributed computing.
+
+**Importance:** Data processing and computation are essential for turning raw data into meaningful information. These processes enable organizations to analyze trends, make predictions, and support decision-making in real-time or near-real-time. The efficiency and scalability of data processing systems directly impact how quickly and effectively data-driven insights can be generated.
+
+**Differences from Relational OLTP Databases:** While OLTP databases are optimized for managing transactions (inserts, updates, deletes), data processing and computation tools are designed for large-scale data aggregation, complex queries, and transformations that often span massive datasets. They also differ in their ability to handle parallel processing and distributed computing across multiple nodes, something that traditional OLTP databases are not typically designed for.
+
+**Why I find it interesting:** I find Data Processing and Computation interesting because they're so many fascinating tools which have transformed how large-scale data processing is done. I like understanding how these programs have the ability to process and compute vast amounts of data efficiently.
+
+## Storage Systems
+
+**What are Storage Systems?:** Storage systems refer to the technologies and architectures used to store and manage data across various formats and media. This includes traditional databases, data lakes, data warehouses, object storage, distributed file systems, and emerging storage technologies like NVMe (Non-Volatile Memory Express) and SSDs (Solid State Drives).
+
+**Importance:** Effective storage systems are vital for ensuring that data is stored securely, efficiently, and in a way that is accessible for processing and analysis. The choice of storage system affects data retrieval speeds, storage costs, and the ability to scale as data grows. It also impacts data governance, security, and compliance.
+
+**Differences from Relational OLTP Databases:** Relational OLTP databases are typically concerned with the real-time storage of structured data with strict schema enforcement. In contrast, storage systems can handle a variety of data types (structured, semi-structured, unstructured) and are designed to support different access patterns and use cases, such as large-scale analytics or archival storage. They may also prioritize different aspects, such as redundancy, durability, or performance, depending on the use case.
+
+**Why I find it interesting:** I find storage systems interesting because of how they are organized. There are so many different ways to organize data and with the latest technological advancements, they are both cost-effective and scalable.
 
 
 # Reflection
