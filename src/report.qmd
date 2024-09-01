@@ -1,8 +1,8 @@
 ---
 title: Homework 1 - Open Source Tools
 author:
-    - name: Skippy McBoatface
-      email: skippy@mcboatface.com
+    - name: Joseph Hughes
+      email: hughesj5@vcu.edu
 format:
     html:
         embed-resources: true
