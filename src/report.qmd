@@ -1,5 +1,5 @@
 ---
-title: Homework 1 - Open Source Tools
+title: "🚀 Homework 1 - Open Source Tools"
 author:
     - name: Joseph Hughes
       email: hughesj5@vcu.edu
@@ -7,8 +7,10 @@ format:
     html:
         embed-resources: true
         html-math-method: katex
-        theme: spacelab
+        theme: cosmo
         toc: true
+        toc-title: "🔍 Table of Contents"
+        number-sections: true
 
 ## Useful references:
 
@@ -21,99 +23,100 @@ format:
 
 ---
 
-The purpose of this report is to first give us an overview of how databases work. We first learn about the Open Source Data Engineering Tools which are used to create massive databases which store lots of data. We then learn about the different types of technical tools which are used to make it easier to create these databases. Lastly, we reflect on what we have learned and how we liked this report.
+# 🎯 Purpose
 
-# Open Source Data Engineering Tools
+The purpose of this report is to provide an overview of how databases work. We start by exploring Open Source Data Engineering Tools, which are pivotal in creating massive databases that store enormous amounts of data. Then, we delve into various technical tools that simplify the creation of these databases. Finally, we reflect on our learning journey and share thoughts on this report.
 
-Author Alireza Sadeghi offers a nice overview of the [2024 ata engineering landscape](https://practicaldataengineering.substack.com/p/open-source-data-engineering-landscape) in the on-line web site [Practical Data Engineering Substack](https://practicaldataengineering.substack.com/).
+# 🌐 Open Source Data Engineering Tools
+
+Author Alireza Sadeghi offers a comprehensive overview of the [2024 Data Engineering Landscape](https://practicaldataengineering.substack.com/p/open-source-data-engineering-landscape) in the online website [Practical Data Engineering Substack](https://practicaldataengineering.substack.com/).
 
 ![](assets/tools-2024.webp)
 
-# Major Categories
+# 🔥 Major Categories
 
-Mr. Sadeghi proposals nine major tools categories.
+Mr. Sadeghi identifies nine major categories of tools:
 
-## Storage Systems
+## 🗄️ Storage Systems
 
-Storage systems are foundational components in data engineering that handle the storage and retrieval of data. These systems can include traditional databases, distributed storage solutions, and modern cloud-based storage options. They provide scalable, reliable, and secure environments to store structured, semi-structured, and unstructured data, ensuring data is accessible for processing, analysis, and other operations.
+Storage systems are foundational components in data engineering that handle the storage and retrieval of data. These systems include traditional databases, distributed storage solutions, and modern cloud-based storage options. They provide scalable, reliable, and secure environments to store structured, semi-structured, and unstructured data, ensuring data is accessible for processing, analysis, and other operations.
 
-## Data Lake Platform
+## 🌊 Data Lake Platform
 
-Data Lake platforms are designed to store vast amounts of raw data in its native format until it is needed. Unlike traditional databases, data lakes can store structured, semi-structured, and unstructured data, providing a flexible and scalable storage solution. These platforms support the integration of multiple data sources, making it easier to perform big data analytics and machine learning on large datasets.
+Data Lake platforms are designed to store vast amounts of raw data in its native format until needed. Unlike traditional databases, data lakes can store structured, semi-structured, and unstructured data, providing a flexible and scalable storage solution. These platforms support integrating multiple data sources, making performing big data analytics and machine learning on large datasets easier.
 
-## Data Integration
+## 🔄 Data Integration
 
-Data Integration involves combining data from different sources into a unified view, faciliating seamless access across various systems. It ensures that disparate data sets work together cohesively, enabling more comprehensive and accurate insights.
+Data Integration involves combining data from different sources into a unified view, facilitating seamless access across various systems. It ensures that disparate data sets work together cohesively, enabling more comprehensive and accurate insights.
 
-## Data Processing and Computation
+## 🧮 Data Processing and Computation
 
-Data Processing and Computation refer to the transformation, aggregation, and analysis of data, enabling the extraction of meaningful insights and the execution of complex algorithms. These processes are crucial for converting raw data into a format that can be easily analyzed and interpreted.
+Data Processing and Computation refer to the transformation, aggregation, and analysis of data, enabling the extraction of meaningful insights and executing complex algorithms. These processes are crucial for converting raw data into a format that can be easily analyzed and interpreted.
 
-## Workflow and DataOps
+## ⚙️ Workflow and DataOps
 
 Workflow and DataOps tools automate and streamline the processes involved in data engineering, ensuring efficient and reliable data pipelines from ingestion to deployment. They enhance collaboration between teams, reduce errors, and enable faster iteration cycles in data-driven projects.
 
-## Data Infrastructure and Monitoring
+## 🛠️ Data Infrastructure and Monitoring
 
 Data Infrastructure and Monitoring tools manage the underlying architecture and continuously track the performance, health, and security of data systems. They play a vital role in maintaining system reliability, preventing downtime, and ensuring that data services run smoothly.
 
-## ML/AI Platform
+## 🤖 ML/AI Platform
 
 ML/AI Platforms provide the tools and frameworks necessary for developing, training, and deploying machine learning and artificial intelligence models at scale. These platforms often include features for model versioning, experiment tracking, and deployment, making it easier to manage the entire ML lifecycle.
 
-## Metadata Management
+## 🗂️ Metadata Management
 
-Metadata Management tools organize, catalog, and govern data assets by maintaining detailed information about data origins, structure, and usage, ensuring proper data stewardship. Effective metadata management improves data discoverablity and enhances data quality by providing context and lineage information.
+Metadata Management tools organize, catalog, and govern data assets by maintaining detailed information about data origins, structure, and usage, ensuring proper data stewardship. Effective metadata management improves data discoverability and enhances data quality by providing context and lineage information.
 
-## Analytics and Visualization
+## 📊 Analytics and Visualization
 
 Analytics and Visualization tools convert raw data into actionable insights through interactive reports, dashboards, and data visualizations, facilitating informed decision-making. These tools allow users to explore data trends, identify patterns, and communicate findings effectively across an organization.
 
-# Digging into the details
+# 🔍 Digging into the Details
 
-In the following sections I identify three subcategories of data engineering tools of greatest interest to me.
+In the following sections, I identify three subcategories of data engineering tools of greatest interest to me.
 
 **Relational Online Transaction Processing (OLTP) Database Management Systems (DBMS)** are designed to manage and execute a large number of short, transactional operations that involve the insertion, update, and deletion of data in a relational database. These systems are optimized for environments where data integrity, consistency, and speed are critical due to the high volume of concurrent transactions.
 
-## Data Infrastructure and Monitoring
+## 📡 Data Infrastructure and Monitoring
 
-**What is Data Infrastructure and Monitoring?:** Data infrastructure and monitoring refer to the systems, tools, and processes that manage, observe, and maintain the overall data ecosystem within an organization. This includes the architecture and technologies that support data collection, storage, transfer, integration, and quality assurance. Monitoring tools specifically focus on tracking the performance, reliability, and integrity of these data systems in real-time, providing alerts and insights to ensure smooth operation.
+**What is Data Infrastructure and Monitoring?**: Data infrastructure and monitoring refer to the systems, tools, and processes that manage, observe, and maintain the overall data ecosystem within an organization. This includes the architecture and technologies that support data collection, storage, transfer, integration, and quality assurance. Monitoring tools specifically focus on tracking the performance, reliability, and integrity of these data systems in real-time, providing alerts and insights to ensure smooth operation.
 
 **Importance:** This category is crucial because it forms the backbone of any data-driven organization. Efficient data infrastructure ensures that data is available, reliable, and accessible when needed. Monitoring tools help in proactively identifying and resolving issues, thereby minimizing downtime, data loss, or corruption. Without robust infrastructure and monitoring, the integrity and availability of data could be compromised, leading to faulty decision-making and operational inefficiencies.
 
 **Differences from Relational OLTP Databases:** Relational OLTP (Online Transaction Processing) databases focus on managing day-to-day transactional data with a high degree of normalization, integrity, and support for ACID properties (Atomicity, Consistency, Isolation, Durability). Data infrastructure, on the other hand, encompasses a broader scope, including data lakes, ETL (Extract, Transform, Load) pipelines, and data warehouses, which may include both structured and unstructured data, and typically handle large volumes of data for analytical purposes rather than just transactional.
 
-**Why I find it interesting:** I find Data infrastructure and monitoring interesting because of how important they are for scalability and reliability of data systems. I'm particularly interested in cloud technologies, containerization, and automation to streamline data operations.
+**Why I find it interesting:** Data infrastructure and monitoring are fascinating because they are essential for the scalability and reliability of data systems. I'm particularly interested in cloud technologies, containerization, and automation to streamline data operations.
 
-## Data Processing and Computation
+## 🧠 Data Processing and Computation
 
-**What is Data Processing and Computation?:** Data processing and computation involve the transformation, analysis, and computation of data to derive actionable insights or to prepare data for further use. This category includes tools and frameworks for batch processing, stream processing, big data analytics, machine learning workflows, and distributed computing.
+**What is Data Processing and Computation?**: Data processing and computation involve the transformation, analysis, and computation of data to derive actionable insights or to prepare data for further use. This category includes tools and frameworks for batch processing, stream processing, big data analytics, machine learning workflows, and distributed computing.
 
 **Importance:** Data processing and computation are essential for turning raw data into meaningful information. These processes enable organizations to analyze trends, make predictions, and support decision-making in real-time or near-real-time. The efficiency and scalability of data processing systems directly impact how quickly and effectively data-driven insights can be generated.
 
 **Differences from Relational OLTP Databases:** While OLTP databases are optimized for managing transactions (inserts, updates, deletes), data processing and computation tools are designed for large-scale data aggregation, complex queries, and transformations that often span massive datasets. They also differ in their ability to handle parallel processing and distributed computing across multiple nodes, something that traditional OLTP databases are not typically designed for.
 
-**Why I find it interesting:** I find Data Processing and Computation interesting because they're so many fascinating tools which have transformed how large-scale data processing is done. I like understanding how these programs have the ability to process and compute vast amounts of data efficiently.
+**Why I find it interesting:** Data Processing and Computation are intriguing because there are many fascinating tools that have transformed how large-scale data processing is done. Understanding how these programs have the ability to process and compute vast amounts of data efficiently is both challenging and rewarding.
 
-## Storage Systems
+## 💾 Storage Systems
 
-**What are Storage Systems?:** Storage systems refer to the technologies and architectures used to store and manage data across various formats and media. This includes traditional databases, data lakes, data warehouses, object storage, distributed file systems, and emerging storage technologies like NVMe (Non-Volatile Memory Express) and SSDs (Solid State Drives).
+**What are Storage Systems?**: Storage systems refer to the technologies and architectures used to store and manage data across various formats and media. This includes traditional databases, data lakes, data warehouses, object storage, distributed file systems, and emerging storage technologies like NVMe (Non-Volatile Memory Express) and SSDs (Solid State Drives).
 
 **Importance:** Effective storage systems are vital for ensuring that data is stored securely, efficiently, and in a way that is accessible for processing and analysis. The choice of storage system affects data retrieval speeds, storage costs, and the ability to scale as data grows. It also impacts data governance, security, and compliance.
 
 **Differences from Relational OLTP Databases:** Relational OLTP databases are typically concerned with the real-time storage of structured data with strict schema enforcement. In contrast, storage systems can handle a variety of data types (structured, semi-structured, unstructured) and are designed to support different access patterns and use cases, such as large-scale analytics or archival storage. They may also prioritize different aspects, such as redundancy, durability, or performance, depending on the use case.
 
-**Why I find it interesting:** I find storage systems interesting because of how they are organized. There are so many different ways to organize data and with the latest technological advancements, they are both cost-effective and scalable.
+**Why I find it interesting:** Storage systems are captivating because of how they are organized. The advancements in storage technology make it both cost-effective and scalable, which is essential in today's data-driven world.
 
+# 💬 Reflection
 
-# Reflection
+Reflecting on my experience with this assignment:
 
-Convert these questions into brief paragraph responses (two or three sentence).
+- **Format:** I really appreciated how the report was formatted. Once everything was set up, I was able to complete the homework efficiently and effectively.
+  
+- **Challenge:** The hardest part was dealing with my PATH environment variable for Visual Studio Code. In the end, I had to reinstall and manually add the PATH environment variable in my advanced system settings.
 
-* I really liked how it was formatted. Once I got everything setup, I was able to get through the homework efficiently.
+- **Surprise:** I was pleasantly surprised by the variety of tools available for creating databases and visualizations. Using GitHub, Visual Studio Code, and Quarto was an enjoyable and educational experience.
 
-* The hardest part I had with this project was my PATH environment variable for Visual Studio Code. In the end, I had to reinstall and manually add the PATH environment variable in my advanced system settings.
-
-* What I found most surprising about this assignment was how many types of tools we can use to make databases and visualizations. I really enjoyed using Github, Visual Studio Code, and Quarto to help this homework come together.
-
-* I would give myself more time next time. I did end up learning everything, but it would help me if I started earlier so I can fully learn how these tools work.
+- **Lesson Learned:** I would give myself
