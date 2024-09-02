@@ -1,15 +1,19 @@
 # SRC folder
 
-This folder contains a scaffold *report.qmd* file.  That is, I started the homework assignment
-for you.
+🚀 My Learning Journey: Mastering Quarto and GitHub
 
-Your task is to clean up the *report.qmd* incrementally, making a few changes at a time and reviewing
-the rendered results.
+I recently delved into Quarto, an incredible tool for authoring high-quality documents, reports, and even presentations. With Quarto, I learned how to:
 
-When you're done, render the document one last time and commit/push your changes to github.
+Create .qmd files: The backbone of any Quarto project.
+Render them into stunning HTML reports: A quick command transforms my work into a web-ready document.
 
-For homework 1:
+🛠️ GitHub: Version Control and Collaboration Like a Pro
 
-* You'll need to upload *report.html* to Canvas, and
-* You'll need to post this repo to gradescope for autograding.
+Navigating the world of GitHub has been an eye-opener. Here’s what I picked up:
 
+Adding and committing changes: Git helps me keep track of every change I make, ensuring that nothing is lost.
+Pushing to a remote repository: My work isn't just confined to my local machine; with a simple git push, I can share my progress with the world.
+
+________________________________________________________________________________________________________________________________________
+
+Overall, I would give this homework a 10/10!
