@@ -1,29 +1,20 @@
-# Homework 1 - Open Source Data Engineering Tools
+# 🚀 My Learning Journey: Mastering Quarto and GitHub
 
-This homework serves two purposes:
+**I recently delved into Quarto, an incredible tool for authoring high-quality documents, reports, and even presentations. With Quarto, I learned how to:**
 
-1. provide the student an opportunity to learn more about data engineering tools of their interest,
+* Create .qmd files: The backbone of any Quarto project.
 
-2. introduce the student to the workflow used to submit assignments in this class.
+* Render them into stunning HTML reports: A quick command transforms my work into a web-ready document.
 
-[Here is a link](https://virginiacommonwealth.instructure.com/courses/105097/assignments/966515) to the homework assignment in Canvas.
+# 🛠️ GitHub: Version Control and Collaboration Like a Pro
 
-Your report should be stored in the ``./report`` folder.  Any assets (PNG, JPG, etc.) should be stored underneath in ``./report/assets``.
+* Navigating the world of GitHub has been an eye-opener. Here’s what I picked up:
 
-FURTHER, you must modify this README to make it your own:
+* Adding and committing changes: Git helps me keep track of every change I make, ensuring that nothing is lost.
 
-* GITHUB provides [good explanations of README.md'(https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) files,
+* Pushing to a remote repository: My work isn't just confined to my local machine; with a simple git push, I can share my progress with the world.
 
-* Here is a list of example *awesome* README files: <https://github.com/matiassingers/awesome-readme>
+________________________________________________________________________________________________________________________________________
 
-Part of your score for this assignment is how well you update/modify this README.
-
-## Files and Folders
-
-*./src* - contains the scaffold QMD file homework 1. Your job is to modify this document and render it to *html*.  The *html* file will
-be created in the same *./src* folder.
-
-*./samples* - contains several QMD files. Your job is to render these files and exam the output.  Output for these files will be in the *./docs* folder.
-
-*./docs* - contains resulting files from quarto render operations.  *You should NEVER directly store files in ./docs.* Rather, you should let Quarto maintain the contents of the *./docs* folder using settings in the quarto project file, *_quarto.yml*.
+**Overall, I would give this homework a 10/10!**
 
