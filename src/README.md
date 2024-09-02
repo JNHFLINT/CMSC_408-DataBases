@@ -1,6 +1,4 @@
-# SRC folder
-
-🚀 My Learning Journey: Mastering Quarto and GitHub
+# 🚀 My Learning Journey: Mastering Quarto and GitHub
 
 I recently delved into Quarto, an incredible tool for authoring high-quality documents, reports, and even presentations. With Quarto, I learned how to:
 
